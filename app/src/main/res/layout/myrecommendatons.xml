@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkRed">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your favourite genres"
+        android:background="@color/LightYellow"
+        android:textColor="@color/DarkRed"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Action"
+        android:id="@+id/action"
+        android:background="@color/LightYellow"
+        android:textColor="@color/DarkRed"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adventure"
+        android:id="@+id/adventure"
+
+        android:background="@color/LightYellow"
+        android:textColor="@color/DarkRed"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animation"
+        android:id="@+id/animation"
+
+        android:background="@color/LightYellow"
+        android:textColor="@color/DarkRed"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Children"
+        android:id="@+id/children"
+
+        android:background="@color/LightYellow"
+        android:textColor="@color/DarkRed"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comedy"
+        android:id="@+id/comedy"
+
+        android:background="@color/LightYellow"
+        android:textColor="@color/DarkRed"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crime"
+        android:id="@+id/crime"
+
+        android:background="@color/LightYellow"
+        android:textColor="@color/DarkRed"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Documentary"
+        android:background="@color/LightYellow"
+        android:textColor="@color/DarkRed"
+        android:id="@+id/documentary" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drama"
+
+        android:background="@color/LightYellow"
+        android:textColor="@color/DarkRed"
+        android:id="@+id/drama"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:id="@+id/okBtn"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@color/LightYellow"
+        android:textColor="@color/DarkRed"/>
+
+</LinearLayout>
